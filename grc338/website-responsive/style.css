@@ -1,0 +1,141 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+
+h1 a{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+div.container{
+    max-width: 80em;
+    margin: auto;
+}
+
+div.description{ 
+    text-align: left;
+}
+
+h1 {
+	color: rgb(92, 64, 51); 
+    padding: .5rem 0rem; 
+    text-align: center;
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+	color: rgb(92, 64, 51);
+	font-size: 2.2rem;
+	padding: 1.5rem 1rem 0.5rem 1rem;
+	font-family: abril-fatface, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+	color: rgb(92, 64, 51);
+	font-size: 1rem;
+    line-height: 1.2;
+	padding: 1rem 1rem 1rem .5rem;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.price{
+	color: rgb(229, 165, 176);
+	font-size: 1rem;
+	padding: 0rem 1rem 0rem;
+	font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+h3 {
+	color: rgb(229, 165, 176);
+    font-size: 1.6rem; 
+    padding: .5rem; 
+	text-transform: bold;
+    text-align: left;
+    list-style-type: none;
+    font-family: abril-fatface, serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+ul{
+	font-size: .5rem;
+	font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    display: inline block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+li{
+	color: rgb(92, 64, 51);
+	padding: 1rem 1rem 2rem 1rem;
+    font-family: 'Gill Sans', sans-serif;    
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1rem;
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: abril-fatface, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: rgb(92, 64, 51);
+    background-color: #fafafa;
+  }
+
+  li a:hover {
+    color: rgb(229, 165, 176);
+  }
+
+main{
+    padding: 0rem 0rem 0rem 2rem;
+}
+footer{
+	color: rgb(92, 64, 51);
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(229, 165, 176);
+}
+
+@media screen and (min-width: 100em) {
+    figure {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
