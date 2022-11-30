@@ -1,0 +1,130 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+    display: block;
+    width: 90%; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+h1 a{
+    display: block;
+    width: 50%;
+    text-align: left; 
+}
+
+h1 img{
+    margin-left: 0rem;
+    width: 40%;
+    padding: 0.5rem 2rem 0.5rem 0rem;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+div.container{
+    max-width: 100em;
+    margin: auto;
+}
+
+h1 {
+	color: rgb(92, 64, 51); 
+    padding: .5rem 0rem; 
+    text-align: left;
+    padding: 0rem 1rem 0rem 2.2rem;
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+	color: rgb(92, 64, 51);
+	font-size: 2.2rem;
+	padding: 1.5rem 1rem 0.5rem 1rem;
+	font-family: abril-fatface, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+	color: rgb(92, 64, 51);
+	font-size: 1rem;
+    line-height: 1.2;
+	padding: 0.5rem 1rem 0.2rem .5rem;
+    font-family: soleil, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p.price{
+	color: rgb(229, 165, 176);
+	font-size: 1rem;
+	padding: 0rem .5rem 1.5rem;
+	font-family: soleil, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3 {
+	color: rgb(229, 165, 176);
+    font-size: 2rem; 
+    padding: .5rem; 
+	text-transform: bold;
+    text-align: left;
+    list-style-type: none;
+    font-family: reklame-script, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+	font-size: .5rem;
+    line-height: 1.5em;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+li{
+	color: rgb(92, 64, 51);
+	padding: 1rem 1rem 2rem 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+li a {
+    display: block;
+    font-family: abril-fatface, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: rgb(92, 64, 51);
+    background-color: #fafafa;
+  }
+
+  li a:hover {
+    color: rgb(229, 165, 176);
+  }
+
+main{
+    padding: 0rem 0rem 0rem 2rem;
+}
+footer{
+	color: rgb(92, 64, 51);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 40em) {
+    h1 img{
+        margin-left: 0rem;
+        width: 80%;
+        padding: 0.5rem 2rem 0.5rem 0rem;
+    }
+}
